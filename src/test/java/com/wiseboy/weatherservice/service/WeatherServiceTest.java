@@ -1,4 +1,4 @@
-package com.wiseboy.weatherservice.controller.service;
+package com.wiseboy.weatherservice.service;
 
 import com.wiseboy.weatherservice.dto.WeatherDTO;
 import com.wiseboy.weatherservice.entity.Weather;
