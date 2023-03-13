@@ -8,3 +8,7 @@ spring:
     defer-datasource-initialization: true
     database-platform: org.hibernate.dialect.H2Dialect
     show-sql: true
+
+weatherstack:
+  url: http://api.weatherstack.com/current?
+  access-key: f3deb33cfcee21feb6e87b9d8a7f21eb
