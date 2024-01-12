@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.0.4</version>
+		<version>3.2.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.wiseboy</groupId>
@@ -14,9 +14,9 @@
 	<name>weatherservice</name>
 	<description>Use Weather Stack APIs to get weather information.</description>
 	<properties>
-		<java.version>17</java.version>
-		<org.mapstruct.version>1.5.3.Final</org.mapstruct.version>
-		<org.mapstruct-processor.version>1.5.3.Final</org.mapstruct-processor.version>
+		<java.version>21</java.version>
+		<org.mapstruct.version>1.5.5.Final</org.mapstruct.version>
+		<org.mapstruct-processor.version>1.5.5.Final</org.mapstruct-processor.version>
 		<maven.compiler.plugin.version>3.8.1</maven.compiler.plugin.version>
 		<springdoc.version>2.0.2</springdoc.version>
 	</properties>
