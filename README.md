@@ -4,7 +4,7 @@ Use 'Open Weather Stack APIs' to get weather information
 ### Tech Stack
 * Java 21
 * Spring Boot 3.2.1
-* CircleCi (CI/CD)
+* Github Action
 * Mapstruct mapper
 * TDD approach
 * Open Api Documentation
