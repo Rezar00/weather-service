@@ -1,4 +1,4 @@
-package com.wiseboy.weatherservice.util.weatherstack;
+package com.wiseboy.weatherservice.adapter.model;
 
 public class ErrorResponse {
 
