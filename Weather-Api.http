@@ -1,3 +1,0 @@
-GET http://localhost:8080/api/v1/weather?city=London
-accept: application/json
-content-type: application/json

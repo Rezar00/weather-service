@@ -1,0 +1,16 @@
+### Get Token
+POST http://localhost:8080/realms/WeatherService/protocol/openid-connect/token
+Content-Type: application/x-www-form-urlencoded
+
+grant_type = password &
+client_id = weather-api-client &
+username = rezar69 &
+password = 123456789
+
+
+#### Get Weather Info
+
+GET http://localhost:8081/api/v1/weather/Rome
+Authorization: Bearer {{access_token}}
+Accept: application/json
+

@@ -10,6 +10,13 @@ spring:
     defer-datasource-initialization: true
     database-platform: org.hibernate.dialect.H2Dialect
     show-sql: true
+
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:8080/realms/WeatherService
+          jwk-set-uri: ${spring.security.oauth2.resourceserver.jwt.issuer-uri}/protocol/openid-connect/certs
   threads:
     virtual:
       enabled: true
