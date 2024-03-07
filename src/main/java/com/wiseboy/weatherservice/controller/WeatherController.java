@@ -20,8 +20,7 @@ public class WeatherController {
     private final WeatherServiceApi weatherService;
 
     @GetMapping("/{city}")
-    @RolesAllowed("TESTER")
-    public ResponseEntity<WeatherDTO> getWeatherInformationByCity(@PathVariable String city, Principal principal) {
+    public ResponseEntity<WeatherDTO> getWeatherInformationByCity(@PathVariable String city) {
         return ResponseEntity.ok(this.weatherService.getWeatherDetailByCity(city));
     }
 }

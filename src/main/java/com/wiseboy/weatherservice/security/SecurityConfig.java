@@ -13,10 +13,13 @@ import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 
 @Configuration
 @EnableWebSecurity
-@RequiredArgsConstructor
 public class SecurityConfig {
 
     private final KeycloakTokenConverter keycloakTokenConverter;
+
+    public SecurityConfig(KeycloakTokenConverter keycloakTokenConverter) {
+        this.keycloakTokenConverter = keycloakTokenConverter;
+    }
 
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {

@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class OpenApiConfig {
     @Bean
-    OpenAPI springShopOpenAPI() {
+    OpenAPI weatherApiDocumentation() {
         return new OpenAPI()
                 .info(new Info().title("Weather Service")
                         .description("Get your city weather temprature")

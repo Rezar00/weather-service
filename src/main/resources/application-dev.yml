@@ -21,6 +21,9 @@ spring:
     virtual:
       enabled: true
 
+keycloak:
+  clientId: "weather-api-client"
+
 weatherstack:
   url: http://api.weatherstack.com/current?
   access-key: f3deb33cfcee21feb6e87b9d8a7f21eb
