@@ -3,7 +3,7 @@ Use 'Open Weather Stack APIs' to get weather information
 
 ### Tech Stack
 * Java 21
-* Spring Boot 3.2.3
+* Spring Boot 3.3.0
 * Github Action
 * Mapstruct mapper
 * TDD approach
